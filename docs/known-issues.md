@@ -16,7 +16,5 @@ This is caused by a validation bug of the keyboard. As a workaround you have two
 
 ### Turn screen off
 
-When turning the screen off iOS will terminate any network connections. Therefore the app will lose any connections and
-you must reconnect.
-It's recommended to keep the screen on. By default, Mixing Station keeps the screen on so it will not turn off
-automatically.
+When turning the screen off iOS will terminate any network connections. Therefore the app will lose any connections and you must reconnect.
+It's recommended to keep the screen on. By default, Mixing Station keeps the screen on so it will not turn off automatically.

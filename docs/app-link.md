@@ -32,8 +32,7 @@ The `Device Name` indicates the name of the current device. It's used for easier
 You usually don't need to change this.
 
 All devices having the same group name communicate with one another.
-If several groups of users want to use the App-Link feature independently on the same network, change the group name as
-required.
+If several groups of users want to use the App-Link feature independently on the same network, change the group name as required.
 
 ### Channel select
 

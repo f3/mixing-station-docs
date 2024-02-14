@@ -2,8 +2,7 @@
 
 There are two places for configuring global settings:
 
-- The `Global settings` view allows you to change generic settings such as UI scale, scroll behaviour or network
-  interfaces
+- The `Global settings` view allows you to change generic settings such as UI scale, scroll behaviour or network interfaces
 - The `App settings` view allows you to change settings related to the mixing UI
 
 ## Global settings
@@ -12,14 +11,14 @@ There are two places for configuring global settings:
 
 The app settings can be opened via the menu from the `start view` (directly after opening the app)
 
-```
+```menu
 Menu -> Gear icon
 ```
 
 ![Settings-Manager](../img/generated/global-settings-screenshot.png)
 
 ### Update branch
-
+>
 > Desktop version only
 
 Configures which branch to use when checking for updates.
@@ -43,7 +42,7 @@ This is useful for installation purposes where the app should always connect to 
 
 ### API
 
-Only available on Desktop platform. Enables {{ abbr('API') }} access for Mixing Station.
+Only available on Desktop platform. Enables API access for Mixing Station.
 
 ### Auto reconnect
 

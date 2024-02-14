@@ -13,7 +13,7 @@ This view lets you configure all layers as well as change the sends on fader con
 
 Open from the mixer view:
 
-```
+```menu
 Menu -> Setup (gear icon) -> Layers
 ```
 

@@ -4,8 +4,7 @@ The beta program allows you to test an upcoming version before anyone else.
 
 ## Discussion / Feedback
 
-All discussion about the beta versions as well as general feedback happens in
-our [discord channel](https://discord.gg/d8bJPg6kZm).
+All discussion about the beta versions as well as general feedback happens in our [discord channel](https://discord.gg/d8bJPg6kZm).
 Feel free to join us!
 
 ## Android
@@ -25,13 +24,7 @@ Open this link on your iOS device and follow the instructions:
 
 - [Test Flight](https://testflight.apple.com/join/lsd9mugy)
 
-Note: Beta builds are only available for 90 days.
-In that time, all in-app payment features can be **tested for free!** Just click on 'Buy' and it will show the price
-as 0€. Previously made purchases won't be visible here as they are only for the release version of the app.
-
-If you decide to leave the beta make sure to select the `Restore purchses` button (see below) to restore your previous
-purchases.
-
+Note: Beta builds are only available for 90 days. In that time, all in-app payment features can be **tested for free!**
 The beta testers are limited to 750 accounts so if there are no slots left you can't join the beta program.
 
 ## Desktop

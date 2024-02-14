@@ -19,7 +19,7 @@ Please make sure the app is working in offline mode before purchasing any licens
 
 All settings and license files are stored in one folder
 
-| OS      | Location                                                                                                                | 
+| OS      | Location                                                                                                                |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
 | Windows | `%USERPROFILE%/MixingStation`                                                                                           |
 | macOS   | `%HOME%/MixingStation`                                                                                                  |
@@ -67,13 +67,13 @@ You can provide the following additional command-line arguments to Mixing Statio
 | `-web`       | Port of the webserver (disabled by default)                              | [API](../integrations/apis.md) |
 | `-osc`       | Port of the OSC server (disabled by default)                             | [API](../integrations/apis.md) |
 
-Example
+### Example
 
-```
+```cmd
 mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
 ```
 
-#### Mix Targets
+### Mix Targets
 
 | Value | Target          |
 |-------|-----------------|
@@ -82,7 +82,7 @@ mixing-station.exe "-appSeries=X AIR" -ip=192.168.1.1 -mixTarget=-1
 | `1`   | Bus 2 / Mix 2   |
 | ...   | ...             |
 
-### Auto connect
+## Auto connect
 
 Since V0.0.8 you can configure Mixing Station to automatically connect to a mixer on startup. See the example above.
 

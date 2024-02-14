@@ -2,5 +2,4 @@
 *.iml
 .idea
 /venv
-__pycache__
-.vscode
+.vscode/

@@ -2,8 +2,7 @@
 
 ![Channel strip settings](../img/settings/channel-strip.webp)
 
-These settings are related to the channel strips in the mixer and belong to the **user settings** (i.e., they apply to
-all mixers).
+These settings are related to the channel strips in the mixer and belong to the **user settings** (i.e., they apply to all mixers).
 
 For more advanced configuration options take a look at the [custom layouts](../custom-layouts.md) page.
 
@@ -16,7 +15,7 @@ Drag directly on an item to resize it. Drag on the left side of an item to chang
 
 This section configures the fader.
 
-- `Show groups`: When enabled, all assigned {{ abbr('DCA') }} and Mutegroups will be shown on the right of the fader.
+- `Show groups`: When enabled, all assigned DCA and Mutegroups will be shown on the right of the fader.
 - `Fader touch`: Defines what should happen if the fader is touched.
 - `Double tap`: Defines what should happen if the fader is double tapped.
 
@@ -34,5 +33,4 @@ This section configures the behaviour of the channel strip.
 - `Channel click`: Changes the behaviour when taping a channel button.
 - `Channel long click`: Changes the behaviour when long pressing a channel button.
 - `Sends click`: Defines what happens when a sends slider inside the channel strip is clicked.
-- `Sends readonly`: If enabled, the sends sliders inside the channel strip are read-only (to prevent accidental
-  changes).
+- `Sends readonly`: If enabled, the sends sliders inside the channel strip are read-only (to prevent accidental changes).

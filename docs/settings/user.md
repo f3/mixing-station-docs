@@ -6,7 +6,7 @@ This page provides access to all session and user settings.
 
 The app settings can be opened via the menu from the *mixer view*
 
-```
+```menu
 Menu -> Setup -> App
 ```
 

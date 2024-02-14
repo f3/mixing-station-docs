@@ -4,12 +4,12 @@ This page explains how the app stores settings.
 
 There are 4 different settings categories as follows: Global, Console Series, App, and User.
 
-| Name                    | Scope                                     | Custom saves (import/export) possible |
-|-------------------------|-------------------------------------------|---------------------------------------|
-| Global settings         | Applies to the entire app                 | No                                    |
-| Console Series settings | Applies to a console series / Android app | No                                    |
-| App settings            | Applies to the entire app                 | No                                    |
-| User settings           | Applies to a specific mixer model         | Yes                                   |
+| Name | Scope | Custom saves (import/export) possible |
+| ---- | --- | --- |
+| Global settings | Applies to the entire app | No |
+| Console Series settings | Applies to a console series / Android app | No |
+| App settings | Applies to the entire app | No |
+| User settings | Applies to a specific mixer model | Yes |
 
 ## Global settings
 
@@ -27,10 +27,9 @@ These settings apply to the currently selected mixer series (for example the `XM
 
 ## App settings
 
-These settings are also global for the entire app and let you change UI/UX related settings, for example
-the [Channel strip](channel-strip.md).
+These settings are also global for the entire app and let you change UI/UX related settings, for example the [Channel strip](channel-strip.md).
 
-```
+```menu
 Menu -> Setup (gear icon)
 ```
 
@@ -44,7 +43,7 @@ These settings are saved automatically by default (see `Autosave`). You can also
 
 To manually save the settings, open:
 
-```
+```menu
 Menu -> Setup (gear icon) ->  Folder icon
 ```
 
@@ -55,8 +54,7 @@ Use the scope buttons to select which settings should be saved or loaded.
 
 ### Backup / Restore
 
-To backup **all** settings of the entire app, select the `gear icon` after starting the app, and
-select `Backup / Restore`.
+To backup **all** settings of the entire app, select the `gear icon` after starting the app, and select `Backup / Restore`.
 You can backup all your data to a local file, or your Mixing Station account.
 
 ![Backup-Restore](../img/settings/backup-restore.png)
@@ -74,11 +72,10 @@ There are two ways to share `User settings` settings as follows:
 
 1. Open the context menu for a setting entry.
 2. Select `Upload` You might be prompted to log in with your Mixing Station account.
-   If your browser is too old (e.g. iOS 9), you can also open to this url from any other browser:
-   [https://mixingstation.app/community/msSettings/stash](https://mixingstation.app/community/msSettings/stash)
+ If your browser is too old (e.g. iOS 9), you can also open to this url from any other browser:
+ [https://mixingstation.app/community/msSettings/stash](https://mixingstation.app/community/msSettings/stash)
 3. A browser will open (you might need to log in again) and you can enter additional meta data.
-4. Once saved, the setting is stored online and can be accessed from any device using your account. If you enabled
-   public sharing, other users can also download your settings.
+4. Once saved, the setting is stored online and can be accessed from any device using your account. If you enabled public sharing, other users can also download your settings.
 
 #### Download
 
@@ -89,5 +86,4 @@ There are two ways to share `User settings` settings as follows:
 1. Open the context menu and select `OS share`.
 
 Depending on the platform, multiple share options are available.
-For importing, you can use the arrow menu button or select the file you want to import in a file explorer and open it
-with Mixing Station.
+For importing, you can use the arrow menu button or select the file you want to import in a file explorer and open it with Mixing Station.

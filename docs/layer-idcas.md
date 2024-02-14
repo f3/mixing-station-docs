@@ -6,7 +6,7 @@ It is also possible to create an IDCA which changes the send level of multiple c
 
 ## New IDCA
 
-To add a new {{ abbr('IDCA') }} to a layer, open the `Layer Setup` view.
+To add a new IDCA to a layer, open the `Layer Setup` view.
 Press the `+` symbol in the menu and select `IDCA` to open the `IDCA Setup` view as shown below.
 
 ![New IDCA](gif/new-idca.gif)

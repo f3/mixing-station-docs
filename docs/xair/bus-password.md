@@ -9,8 +9,7 @@ It is possible to lock certain buses with a password (Mixing Station only).
 3. Select the buses you want to protect. `Main LR` will lock the `No restrictions` mode.
 4. Press back to close the view and store the settings on the XAir.
 
-When you connect to the XAir and the data sync is completed, a password prompt will be shown if the bus you want to
-access is protected.
+When you connect to the XAir and the data sync is completed, a password prompt will be shown if the bus you want to access is protected.
 
 ## Supported devices
 
@@ -18,8 +17,7 @@ All devices using Mixing Station. Any other app including the official XAir apps
 
 ## Where is the password stored?
 
-The password is stored in the last snapshot (50th position). The scope buttons are used to store the information about
-which bus is protected.
+The password is stored in the last snapshot (50th position). The scope buttons are used to store the information about which bus is protected.
 
 ## How to reset the password?
 

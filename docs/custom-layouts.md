@@ -67,7 +67,7 @@ The following describes the available modes
 |-------------|:----|--------------------------------------------------------------------------------|
 | Size + Move |     | Items can be moved and resized, depending on where they are touched (default). |
 | Resize      |     | Dragging an item causes it to be resized.                                      |
-| Move        |     | Dragging an item causes it be moved.                                           |   
+| Move        |     | Dragging an item causes it be moved.                                           |
 
 ### Adding new items
 
@@ -175,7 +175,7 @@ This setting controls the conditions under which the UI is visible.
 ### Actions
 
 This list shows all actions assigned to the UI element. Click on an entry to open the action,
-press and hold an entry to remove it.
+ press and hold an entry to remove it.
 See [actions page](custom-actions.md#label-tags) for more details.
 
 Note: Some UI elements may have more or less settings, these are described below.
@@ -184,7 +184,7 @@ Note: Some UI elements may have more or less settings, these are described below
 
 This section describes all available UI items and their special configuration parameters.
 
---- 
+---
 
 ### Mixer
 
@@ -207,7 +207,7 @@ You can use this to build up rows of mixer elements, each showing a different la
 
 Defines how the channel strips should look. By default, the [global settings](settings/channel-strip.md) are used.
 
---- 
+---
 
 ### Channel strip
 
@@ -216,10 +216,9 @@ Shows a single channel strip that can be assigned to a fixed, or dynamic channel
 ![Channel strip](img/layouts/ch-strip.png)
 ![Channel strip settings](img/layouts/ch-strip-settings.png)
 
-Similar to the mixer element, the look of this item can also be configured to be independent of the global channel strip
-settings.
+Similar to the mixer element, the look of this item can also be configured to be independent of the global channel strip settings.
 
---- 
+---
 
 ### Sidebar
 
@@ -227,7 +226,7 @@ List of buttons for controlling the sends on fader, fine and mute enable status.
 
 ![Sof list](img/layouts/sidebar.png)
 
---- 
+---
 
 ### Sends on fader buttons
 
@@ -235,7 +234,7 @@ List of buttons for controlling the sends on fader state
 
 ![Sof list](img/layouts/sof-list.png)
 
---- 
+---
 
 ### Layer list
 
@@ -243,7 +242,7 @@ List of buttons for selecting a layer.
 
 ![Layer list](img/layouts/layer-list.png)
 
---- 
+---
 
 ### Button
 
@@ -253,15 +252,15 @@ A button can be used to toggle the status of an action.
 
 Action slots:
 
-| Slot           | Behavior                                  |
-|----------------|-------------------------------------------|
-| Click          | Finger needs to touch and lift            |
-| Long click     | Finger needs to touch for a longer period |
-| Touch          | Finger needs to touch                     |
-| Momentary      | Touch triggers "on", lift triggers "off"  |
-| Inv. Momentary | Same as `Momentary` but inverted          |
+| Slot | Behavior |
+| --- | --- |
+| Click | Finger needs to touch and lift |
+| Long click | Finger needs to touch for a longer period |
+| Touch | Finger needs to touch |
+| Momentary | Touch triggers "on", lift triggers "off" |
+| Inv. Momentary | Same as `Momentary` but inverted |
 
---- 
+---
 
 ### Knob
 
@@ -269,7 +268,7 @@ A knob can be used to control a numeric value (like a send level or pan).
 
 ![Knob](img/layouts/knob.png)
 
---- 
+---
 
 ### Label
 
@@ -280,4 +279,3 @@ A label can be used to show values like the current scene, or just to display te
 #### Settings: Text position
 
 Changes how the text is aligned on screen.
-

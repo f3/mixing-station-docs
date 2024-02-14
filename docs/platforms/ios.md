@@ -11,5 +11,4 @@ As soon as you want to connect to a mixer you must buy the app for that mixer mo
 
 ## URL Scheme
 
-The URL scheme of the app is `mixingstation`. This name can be used for other apps such as `BandHelper` in order to open
-Mixing Station.
+The URL scheme of the app is `mixingstation`. This name can be used for other apps such as `BandHelper` in order to open Mixing Station.

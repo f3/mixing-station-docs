@@ -1,8 +1,7 @@
 # APIs
 
-Mixing Station provides different {{ abbr('API') }}s for integration with external software and hardware.
-The goal of these APIs is to cover the majority of console parameters with a unified API, allowing your application to
-work with every mixer supported by Mixing Station.
+Mixing Station provides different APIs for integration with external software and hardware.
+The goal of these APIs is to cover the majority of console parameters with a unified API, allowing your application to work with every mixer supported by Mixing Station.
 
 ## Overview
 
@@ -10,26 +9,20 @@ Note that the *full* set of APIs is only available in the desktop version of Mix
 
 ## Configure APIs
 
-To enable {{ abbr('API') }} access, open the [global app settings](../settings/global.md) and enable {{ abbr('REST') }}
-and/or {{ abbr('OSC') }}.
+To enable API access, open the [global app settings](../settings/global.md) and enable REST and/or OSC (Open Sound Control).
 
 ## Data Types
 
 The following data types are used:
 
-| Type     | Sample     |
-|----------|------------|
-| bool     | true/false |
-| float    | 1.20       |
-| long/int | 1          |
-| string   | "hello"    |
+## Data Types
 
 There are two possible float formats as follows:
 
-| Format       | Description                                  | 
-|--------------|----------------------------------------------|
-| Plain values | The actual value of the parameter (e.g. -5)  |
-| Normalized   | The value is normalized within the range 0-1 |
+| Format | Description |
+| --- | --- |
+| Plain values | The actual value of the parameter (e.g. -5) |
+| Normalized | The value is normalized within the range 0-1 |
 
 ## REST
 
@@ -65,13 +58,13 @@ The last char determines the formatting
 
 Plain value
 
-```
+```osc
 /hi/v
 ```
 
 Normalized value
 
-```
+```osc
 /hi/n
 ```
 
@@ -79,7 +72,7 @@ Normalized value
 
 A OSC packet without any parameters is used to request the current value.
 
-```
+```osc
 /con/[vn]/{dataPath}
 ```
 
@@ -88,7 +81,7 @@ A OSC packet without any parameters is used to request the current value.
 Setting the data is similar to getting but with additional parameters.
 You can use any of the supported data types described above.
 
-```
+```osc
 /con/[vn]/{dataPath} f 0.0
 ```
 
@@ -96,24 +89,24 @@ You can use any of the supported data types described above.
 
 Get fader of ch 1 as dB value
 
-```
+```osc
 /con/v/ch.0.mix.lvl
 ```
 
 Get fader of ch 1 as normalized value
 
-```
+```osc
 /con/n/ch.0.mix.lvl
 ```
 
 Set fader of ch 1 using a dB value
 
-```
+```osc
 /con/v/ch.0.mix.lvl f -5
 ```
 
 Set fader of ch 1 using a normalized
 
-```
+```osc
 /con/n/ch.0.mix.lvl f 0.5
 ```

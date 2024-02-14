@@ -2,8 +2,7 @@
 
 This feature allows you to change the gain/trim of a channel without affecting the monitor sends / gate / dynamics.
 
-A typical use case would be if an input is louder than during soundcheck and you need to adjust the gain but keep the
-monitor sound stable.
+A typical use case would be if an input is louder than during soundcheck and you need to adjust the gain but keep the monitor sound stable.
 
 ## Usage
 
@@ -21,11 +20,10 @@ Sends / Faders will be adjusted in the inverted direction.
 
 ### Example
 
-| Value    | Before | After |
-|----------|--------|-------|
-| Gain     | 0dB    | 5 dB  |
-| Gate thr | -20dB  | -15dB |
-| Fader    | -15dB  | -20dB |
+| Value | Before | After |
+| --- | --- | --- |
+| Gain | 0dB | 5 dB |
+| Gate thr | -20dB | -15dB |
+| Fader | -15dB | -20dB |
 
 ![Re-Gain example](gif/re-gain.gif)
-

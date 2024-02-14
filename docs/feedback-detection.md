@@ -5,7 +5,7 @@ This feature was **not** designed to be used as a feedback destroyer **while mus
 
 The feature can be accessed from the main mixer:
 
-```
+```menu
 Menu -> Fbk Detection
 ```
 
@@ -14,8 +14,7 @@ Menu -> Fbk Detection
 - RTA Source: Select the signal source that should be used for showing the RTA and detecting the feedback.
 - Target: Select the channel on which GEQ should be used to eliminate the feedback.
 - Auto: This button activates automatic GEQ mode. It reduces the gain of the frequencies which are causing feedback.
-- Yellow RTA lines: These lines indicate which frequencies the app infers to be feedback. A higher line indicates
-  greater confidence in the app's evaluation.
+- Yellow RTA lines: These lines indicate which frequencies the app infers to be feedback. A higher line indicates greater confidence in the app's evaluation.
 
 ## Example
 

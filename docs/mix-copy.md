@@ -6,7 +6,7 @@ or if you simply want to copy a monitor mix to another monitor mix.
 
 ## Usage
 
-```
+```menu
 Select channel -> SENDS -> Menu -> Mix Copy
 ```
 
