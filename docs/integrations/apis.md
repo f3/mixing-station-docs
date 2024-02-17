@@ -15,8 +15,6 @@ To enable API access, open the [global app settings](../settings/global.md) and 
 
 The following data types are used:
 
-## Data Types
-
 There are two possible float formats as follows:
 
 | Format | Description |
